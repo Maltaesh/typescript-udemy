@@ -14,3 +14,8 @@ userInput2 = 5;
 console.log(userInput2);
 userInput2 = 'Marcin';
 userName2 = userInput; // allowed to assign type string to type any
+function generateError(message, code) {
+    throw { message: message, errorCode: code };
+}
+var result = generateError('An error occurred!', 500);
+console.log(result);
