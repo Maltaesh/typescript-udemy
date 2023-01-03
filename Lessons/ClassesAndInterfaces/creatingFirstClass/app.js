@@ -1,6 +1,5 @@
 "use strict";
 class Department {
-    name;
     constructor(n) {
         this.name = n;
     }
@@ -10,5 +9,6 @@ class Department {
 }
 const accounting = new Department('Accounting');
 console.log(accounting);
-console.log('hehe');
+console.log(accounting.getName());
+const accountingCopy = { name: 'a', describe: accounting.getName };
 //# sourceMappingURL=app.js.map
