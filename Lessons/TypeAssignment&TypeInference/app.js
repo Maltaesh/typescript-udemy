@@ -1,17 +1,18 @@
+"use strict";
 function add(num1, num2, printResult, phrase) {
-    var result = num1 + num2;
+    const result = num1 + num2;
     if (printResult) {
-        console.log("".concat(phrase, " ").concat(result));
+        console.log(`${phrase} ${result}`);
         return;
     }
     return result;
 }
-var printResult = true;
-// printResult = false
-var number1 = 5;
-var number2 = 2.5;
-var phrase = "Aby to było tyle ile ma być!";
-var text;
+const printResult = true;
+const number1 = 5;
+const number2 = 2.5;
+const phrase = "Aby to było tyle ile ma być!";
+let text;
 text = 'Konstantynopolitańczykiewiczówna';
-var text2;
+let text2;
 add(number1, number2, printResult, phrase);
+//# sourceMappingURL=app.js.map

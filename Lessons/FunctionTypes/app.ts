@@ -3,10 +3,11 @@ type ConvertDescriptor = 'as-number' | 'as-string'
 
 function combine(input1: Combinable, input2: Combinable, resultType: ConvertDescriptor) {
     if (resultType === 'as-string') return `${input1} ${input2}`
-    if (resultType === 'as-number') return +input1 + +input2
+
+    return +input1 + +input2
 }
 
-function printResult(num: Combinable) {
+function printResult(num: Combinable | undefined) {
     console.log('Result: ' + num)
 }
 
