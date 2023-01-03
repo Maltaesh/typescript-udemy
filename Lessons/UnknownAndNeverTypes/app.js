@@ -1,21 +1,22 @@
-var userInput;
-var userName;
+"use strict";
+let userInput;
+let userName;
 userInput = 5;
 console.log(userInput);
 userInput = 'Marcin';
-// userName = userInput // not allowed to assign type string to type unknown. Needed to check type of userInput i.e.
 if (typeof userInput === 'string') {
-    userName = userInput; // this is allowed because of if-statement where userInput type is checked to be string
+    userName = userInput;
     console.log('I am a string!');
 }
-var userInput2;
-var userName2;
+let userInput2;
+let userName2;
 userInput2 = 5;
 console.log(userInput2);
 userInput2 = 'Marcin';
-userName2 = userInput; // allowed to assign type string to type any
+userName2 = userInput;
 function generateError(message, code) {
     throw { message: message, errorCode: code };
 }
-var result = generateError('An error occurred!', 500);
+const result = generateError('An error occurred!', 500);
 console.log(result);
+//# sourceMappingURL=app.js.map
