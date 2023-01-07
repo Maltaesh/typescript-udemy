@@ -1,7 +1,14 @@
 // class Department {
 //     protected departmentEmployees: string[] = []
 //
+//     private static departments: Array<Department> = []
+//
 //     constructor(private name: string, private id: number) {
+//         Department.listOfDepartments.push(this)
+//     }
+//
+//    static get listOfDepartments() {
+//         return Department.departments
 //     }
 //
 //     getName(this: Department) {
@@ -81,6 +88,7 @@
 // it.addEmployee('Marcin')
 // it.addTechStack = ['Node', 'Express']
 // console.log(`TechStack: ${it.getTechStack}`)
+// console.log(Department.listOfDepartments)
 //
 // const accounting = new Department('Accounting', 1)
 //
