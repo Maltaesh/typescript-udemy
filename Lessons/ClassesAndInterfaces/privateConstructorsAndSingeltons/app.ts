@@ -116,7 +116,8 @@ console.log(Department.listOfDepartments)
 
 const accounting = AccountingDepartment.getInstance(1)
 const accounting2 = AccountingDepartment.getInstance(3)
-console.log('Second try to instantiate accounting: ', accounting, accounting2)
+console.log('There can be only one instance of an accounting department: ', (accounting === accounting2))
+
 
 accounting.describe()
 
