@@ -1,5 +1,6 @@
 interface Named {
     readonly name: string
+    readonly lastName?: string
 }
 
 interface Greetable extends Named {
