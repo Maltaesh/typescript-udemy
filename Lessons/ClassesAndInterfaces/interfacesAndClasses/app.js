@@ -4,6 +4,9 @@ class Person {
         this.name = name;
         this.age = age;
     }
+    read(text) {
+        console.log(text);
+    }
     greet(phrase) {
         console.log(phrase, this.name, this.age);
     }
