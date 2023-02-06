@@ -35,3 +35,7 @@ const e2: IElevatedEmployee = {
     privileges: ['hiring-people'],
     startDate: new Date()
 }
+
+console.log(e1, e2)
+
+export {}
