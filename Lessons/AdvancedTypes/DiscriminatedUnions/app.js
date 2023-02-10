@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function moveAnimal(animal) {
     let speed;
     switch (animal.type) {
