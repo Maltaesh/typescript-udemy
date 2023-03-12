@@ -20,3 +20,4 @@ promise
         console.error(err)
     })
 
+export {}

@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const names = ['Max', 'Manuel'];
 console.log(names);
 const promise = new Promise((res) => {
